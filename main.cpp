@@ -872,6 +872,7 @@ bool recommendMove(const Arena& a, int r, int c, int& bestDir)
 
 int main()
 {
+  // Game g(width, height, # of cyborgs) 
     Game g(3, 5, 4);
 
     g.play();
